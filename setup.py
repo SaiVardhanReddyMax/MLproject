@@ -13,13 +13,13 @@ def get_requirements(file_path:str)->List[str]:
 
         if HYPEN_E_DOT in requirements:
             requirements.remove(HYPEN_E_DOT)
-        return requirements
+    return requirements
 
 setup(
     name="MLproject",
     version="0.0.1",
     author="Sai Vardhan Reddy",
-    author_email="sai.gsvr@gmal.com",
+    author_email="sai.gsvr@gmail.com",
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 ) 
